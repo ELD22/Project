@@ -13,4 +13,9 @@ Additionally, I did not check if the directory path works for Linux or Mac. I do
 The second prompt can be spelled in any way.
 The third prompt needs to include the period and is not cap-sensitive.
 
-As long as that is done correctly, the program will append any .txt, .odt, and .docx files in a folder into your newly created one.
+As long as that is done correctly, the program will append any .txt, .odt, and .docx files in a folder into your newly created file.
+
+For the program to function, a few libraries were downloaded using Maven on IntelliJ IDEA
+        import org.apache.poi.xwpf.usermodel.XWPFDocument;
+        import org.apache.poi.xwpf.usermodel.XWPFParagraph;
+        import org.odftoolkit.simple.TextDocument;
